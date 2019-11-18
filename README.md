@@ -60,11 +60,6 @@ Enforce SMB Signing – To prevent attackers from launching simpler NTLM relay a
 Block NTLMv1 – Since NTLMv1 is considered significantly less secure; it is recommended to completely block it by setting the appropriate GPO.<br>
 Enforce LDAP/S Signing – To prevent NTLM relay in LDAP, enforce LDAP signing and LDAPS channel binding on domain controllers.<br>
 Enforce EPA – To prevent NTLM relay on web servers, harden all web servers (OWA, ADFS) to accept only requests with EPA.
-* https://www.helpnetsecurity.com/2019/06/11/microsoft-ntlm-vulnerabilities/
-* https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd560653(v=ws.10)
-* https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-restrict-ntlm-outgoing-ntlm-traffic-to-remote-servers
-* https://blogs.technet.microsoft.com/askds/2009/10/08/ntlm-blocking-and-you-application-analysis-and-auditing-methodologies-in-windows-7/
-* https://www.helpnetsecurity.com/2019/06/11/microsoft-ntlm-vulnerabilities/
 
 ## KBs
 * https://www.bleepingcomputer.com/news/security/understanding-the-windows-credential-leak-flaw-and-how-to-prevent-it/
@@ -79,6 +74,10 @@ Enforce EPA – To prevent NTLM relay on web servers, harden all web servers (OW
 * https://twitter.com/mynameisv__/status/1123256857072742400
 * https://github.com/LOLBAS-Project/LOLBAS/blob/master/yml/OSBinaries/Rpcping.yml
 * https://github.com/cure53/HTTPLeaks
+* https://www.helpnetsecurity.com/2019/06/11/microsoft-ntlm-vulnerabilities/
+* https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd560653(v=ws.10)
+* https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-restrict-ntlm-outgoing-ntlm-traffic-to-remote-servers
+* https://blogs.technet.microsoft.com/askds/2009/10/08/ntlm-blocking-and-you-application-analysis-and-auditing-methodologies-in-windows-7/
 
 ## tools
 * https://github.com/deepzec/Bad-Pdf
