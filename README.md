@@ -86,3 +86,5 @@ Enforce EPA – To prevent NTLM relay on web servers, harden all web servers (OW
 * https://github.com/cure53/HTTPLeaks
 * https://github.com/SpiderLabs/Responder
 * https://github.com/Kevin-Robertson/Inveigh
+* https://github.com/Ridter/CVE-2019-1040
+* https://github.com/lazaars/UltraRealy_with_CVE-2019-1040
