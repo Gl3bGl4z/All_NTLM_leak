@@ -79,3 +79,5 @@ https://github.com/ShikariSenpai/Leak-NTLM-hash-via-HTML
 * https://github.com/elnerd/Get-NetNTLM
 * https://github.com/ShikariSenpai/Leak-NTLM-hash-via-HTML
 * https://github.com/cure53/HTTPLeaks
+* https://github.com/SpiderLabs/Responder
+* https://github.com/Kevin-Robertson/Inveigh
